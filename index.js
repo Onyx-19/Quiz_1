@@ -1,4 +1,4 @@
-// let formulario = document.getElementById("formulario");
+let formulario = document.getElementById("formulario");
 
 
 
@@ -25,18 +25,18 @@ elSelect.addEventListener("change", () => {
 //     let durazno = documen.getElementById("img","img/durazno.png");
 // })
 
-// formulario.addEventListener("submit", (e) => {
-//     e.preventDefault();
+formulario.addEventListener("submit", (e) => {
+    e.preventDefault();
     
-//     let nombre = document.getElementById('nombre').value;
-//     let apellido = document.getElementById('apellido').value;
-//     let direccion = document.getElementById('direccion').value;
-//     let telefono = document.getElementById('telefono').value;
-//     let sabor = document.getElementById('sabor').value;
+    let nombre = document.getElementById('nombre').value;
+    let apellido = document.getElementById('apellido').value;
+    let direccion = document.getElementById('direccion').value;
+    let telefono = document.getElementById('telefono').value;
+    let sabor = document.getElementById('sabor').value;
 
-//     let array = [nombre, apellido, direccion, telefono, sabor];
-//     console.log(array);
-// })
+    let array = [nombre, apellido, direccion, telefono, sabor];
+    console.log(array);
+})
 
 
 

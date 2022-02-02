@@ -3,18 +3,18 @@ body{
     font-family: cursive;
 }
 #contenedor{
+    border-radius: 15px;
     background-color: white;
     margin-left: 30%;
     width: 40%;
 }
 h1{
     text-align: center;
-    border: solid;
     margin-left: 10%;
     width: 80%;
 }
 #div-img{
-    border: solid;
+    
     width: 40%;
     height: 20%;
     margin-left: 30%;
@@ -24,7 +24,7 @@ h1{
     height: 100%;
 }
 form{
-    border: solid;
+    
     margin-left: 10%;
     margin-top: 1%;
     width: 80%;
@@ -46,12 +46,10 @@ button{
     font-family: cursive;
     width: 40%;
     height: 40px;
-    /* border-radius: 15px; */
-    /* border: solid; */
+    border-radius: 15px;
     font-weight: bold;
     font-size: 110%;
 }
-
 #helados{
 width: 500px;
 height: 500px;
